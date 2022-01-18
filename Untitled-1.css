@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#myDiv1{
+    width: 300px;
+   height: 180px;
+   background-color: rgba(0, 0, 150, 0.534);
+   opacity: 55%;
+   border-radius: 10px;
+   padding-top: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: flex-start;
+}
+.myDD{
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    top:35px;
+    right: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.myDD0{
+    height: 2px;
+    width: 50px;
+    background-color: black;
+}
+.myDD1{
+    height: 2px;
+    width: 30px;
+    background-color: black;
+    transition: 1s;
+}
+.myDD:hover .myDD1{
+    width: 50px;
+}
+.myDD:hover{
+    background-color: rgba(0, 0, 0, 0.199);
+}
+#myDiv2{
+    padding: 20px;
+    width: 300px;
+   background-color: rgba(0, 129, 28, 0.363);
+   opacity: 55%;
+   border-radius: 10px;
+   margin-top: 10px;
+}
+#myDiv2 input{
+    font-size: 15px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.mainDiv{
+    display: flex;
+    justify-content: center;
+    
+}
+#myDiv{
+    width: 300px;
+   height: 480px;
+   position: fixed;
+   opacity: 100%;
+   border-radius: 10px;
+   
+}
+#mySelect{
+    margin: 0px 30px 30px 30px;
+    display: block;
+    width: 240px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+#myDisplay, #justifycontent, #itemsalign{
+    width: 120px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+#myPosition{
+    margin-left: 30px;
+    width: 120px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#myDiv10{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#createBtn, #backBtn, #codeBtn{
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(236, 236, 236);
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.code{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.733);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.code .myC{
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    background-color: white;
+    overflow: scroll;
+    padding: 20px;
+}
+.code .myPic{
+    width: 50px;
+    height: 50px;
+    top: 50px;
+    right: 50px;
+    position: absolute;
+}
+.code .myPic img{
+    width: 100%;
+    height: 100%;
+}
+.hide{
+    display: none !important;
+}
